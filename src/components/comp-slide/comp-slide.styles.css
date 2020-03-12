@@ -1,0 +1,13 @@
+.title
+{
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(97, 94, 94, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    
+}
+h1
+{
+    text-align: center;   
+}

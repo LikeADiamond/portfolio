@@ -3,12 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.9.5",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "aos": "^2.3.4",
+    "box-shadows-css": "^1.0.51",
+    "classnames": "^2.2.6",
+    "node-sass": "^4.13.1",
     "react": "^16.13.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animated-slider": "^2.0.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.0",
+    "react-spring": "^8.0.27",
+    "scrollmonitor-react": "^2.4.1"
   },
   "scripts": {
     "start": "react-scripts start",

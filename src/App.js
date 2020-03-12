@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import BackgroundVideo from './components/background-video/background-video.component';
+
+
+import { Parallax, ParallaxLayer } from 'react-spring/renderprops-addons'
+import SecondPage from './components/druga-strona/druga-strona.component';
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div>
+       <Parallax pages={2}>
+          <ParallaxLayer offset={0} speed={0.2}>
+            <BackgroundVideo/>
+          </ParallaxLayer>
+          <ParallaxLayer offset={1} speed={0.5}>
+            <SecondPage/>
+          </ParallaxLayer>
+        </Parallax>
+      </div>
     </div>
   );
 }
