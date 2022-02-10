@@ -10,7 +10,7 @@
     "aos": "^2.3.4",
     "box-shadows-css": "^1.0.51",
     "classnames": "^2.2.6",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-animated-slider": "^2.0.0",
