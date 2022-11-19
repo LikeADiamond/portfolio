@@ -16,7 +16,7 @@
     "react-animated-slider": "^2.0.0",
     "react-dom": "^16.13.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-spring": "^8.0.27",
     "scrollmonitor-react": "^2.4.1"
   },
